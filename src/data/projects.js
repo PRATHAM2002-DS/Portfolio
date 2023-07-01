@@ -1,86 +1,84 @@
-import chatapp from "../images/chat-app.png";
-import defaultImage from "../images/default-project.png";
-import ecotech from "../images/ecotech.png";
-import fastnfresh from "../images/fast-n-fresh.jpg";
-import noteitdown from "../images/note-it-down.jpg";
-import radiance from "../images/radiance21.jpg";
+import chat from "../images/chat.jpg";
+import submission from "../images/submission.jpeg";
+import arch from "../images/arch.jpeg";
+import pulzion from "../images/pulzion.jpeg";
+import covmeal from "../images/covmeal.jpeg";
+import flipkart from "../images/flipkart.mp4";
+import grid from "../images/grid.jpeg";
+import travendo from "../images/travendo.jpeg";
 
 export const projectsData = [
   {
-    name: "EcoTech",
+    name: "Pulzion Event Management System",
     description:
-      "EcoTech is a one stop e-waste management solution. It was developed as a part of the WCE Hackathon. It consists of a mobile app, the admin dashboard, the recycler's dashboard, a machine learning model and the related backend microservices.",
-    image: ecotech,
-    code: "https://github.com/EcoTech-WCE-Hackathon/EcoTech",
+      "The primary goal of the PULZION’23 website was to host the annual flagship event of PASC which received around 3400+ registrations and 40000+ requests.",
+    image: pulzion,
+    deployment: "https://pulzion.co.in/",
+    code: "https://github.com/yellowflashofleaf/pulzion23",
     techStack: [
-      "Flutter",
-      "Next JS",
-      "Django REST Framework",
-      "PostgreSQL",
+      "Next Js",
+      "Tailwind CSS",
+      "Node JS",
+      "PostgresSQL",
+      "Azure Cloud Services",
+      "AWS",
       "Docker",
-      "Kubernetes",
+      "Firebase Push Notifications Service",
     ],
-    sysArch: "https://sysArch.burhanuddinmerchant.me/ecotech.html",
+    sysArch: "https://www.instagram.com/p/Cqp6McYIlLt/",
   },
   {
-    name: "Fast 'n fresh",
+    name: "CovMeal",
     description:
-      "An E-commerce grocery delivery application with a focus on simplicity and speed. Has separate login for the user, the admin and the delivery boy.",
-    image: fastnfresh,
-    code: "https://github.com/Fast-n-fresh/fast-n-fresh-app",
-    deployment:
-      "https://github.com/Fast-n-fresh/fast-n-fresh-app/releases/download/v1.0-beta/app-release.apk",
-    techStack: [
-      "Flutter",
-      "NodeJS",
-      "MongoDB",
-      "Docker",
-      "Cloudinary",
-      "Terraform",
-    ],
-    sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
+      "Contributed a helping hand to society by connecting foodservice providers with Covid patients for meal deliveries. Impact- 35+ food service provider registrations from major locations of Pune City.",
+    image: covmeal,
+    code: "https://github.com/Akash-213/Cov-Meal-Code",
+    deployment: "https://covmeal.netlify.app/",
+    techStack: ["ReactJs", "Firebase", "Tailwind CSS", "Netlify"],
+    sysArch: "https://www.youtube.com/watch?v=-RddAECtSdY",
   },
   {
-    name: "Radiance '21 App",
+    name: "Submission Platform",
     description:
-      "A registration app for the events conducted in Radiance '21 and deployed it on Play Store. Hosted by PICT ACM Student Chapter - Women in Computing, Radiance is a high spirited event consisting of various technical and non-technical events.",
-    image: radiance,
+      "The primary goal of portal was to provide participants of Pulzion a platform to submit their solutions.",
+    image: submission,
+    code: "https://github.com/yellowflashofleaf/submission-frontend23",
     // website: "https://radiance21.in/",
-    deployment:
-      "https://play.google.com/store/apps/details?id=com.pasc.radiance2021",
-    techStack: ["Flutter", "NodeJS", "Firebase Cloud Messaging"],
+    deployment: "https://submission.pulzion.co.in/",
+    techStack: ["Next Js", "NodeJS", "AWS", "Docker", "Azure Cloud Services"],
   },
   {
-    name: "Chat App",
+    name: "Multi-layered Market Sentiment Aggregator",
     description:
-      "A room / group chat app that can handle bi-directional conversations. Has a facility to share location. Can handle multiple rooms at a time.",
-    image: chatapp,
-    code: "https://github.com/RohinBhat/node-chat-app",
-    deployment: "https://baron-chat-app.herokuapp.com/",
+      "As a part of Flipkart GRID 4.0 we developed a multi-layered market sentiment aggregator with a built-in signal detector offering real time analytics..",
+    image: grid,
+    code: "https://github.com/PRATHAM2002-DS/FlipkartGrid-ML-Models-",
     techStack: [
-      "NodeJS",
-      "ExpressJS",
-      "Socket.io",
-      "HTML",
-      "CSS",
-      "Handlebars",
+      "NLTK",
+      "TextBlob",
+      "Python",
+      "Django Rest Framework",
+      "ReactJS",
+      "ChartJS",
+      "AlchemyJs",
     ],
+    deployment: flipkart,
+    sysArch: arch,
   },
   {
-    name: "Task Manager API",
+    name: "Video Chat App (Ongoing)",
     description:
-      "A Task Manager REST API with basic CRUD operations for users and their tasks created with Node JS. Follows Model-View-Controller (MVC) Architecture",
-    image: defaultImage,
-    code: "https://github.com/RohinBhat/task-manager-api",
-    deployment: "https://baron-task-manager-api.herokuapp.com/",
-    techStack: ["NodeJS", "ExpressJS", "MongoDB"],
+      "A video chat app developed using WebRTC and Socket.io with a backend written in Golang using GoFibre.",
+    image: chat,
+    code: "https://github.com/PRATHAM2002-DS/go-videochat-app",
+    techStack: ["Golang", "GoFibre", "WebRTC", "Socket.io", "Docker"],
   },
   {
-    name: "Note It Down",
+    name: "Travendo",
     description:
-      "A Note-taking app along with a to-do list (Tasks) functionality, Note It Down is an app developed for Android devices using Firebase in the backend.",
-    image: noteitdown,
-    code: "https://github.com/RohinBhat/NoteItDown",
-    techStack: ["Android", "Firebase"],
+      "TRAVENDO helps people in enjoying authentic village products at an affordable price. We also hope that this platform helps in breaking all the trust issues between the urbanites and village products and thereby increases the employment rate in village/rural areas.",
+    image: travendo,
+    code: "https://github.com/PRATHAM2002-DS/travendo-frontend",
+    techStack: ["React JS", "Node JS", "MongoDB", "Express JS"],
   },
 ];

@@ -2,7 +2,7 @@ import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 import React from "react";
 import Typewriter from "typewriter-effect";
-import photo from "../../images/me.jpg";
+import photo from "../../images/me.jpeg";
 
 export default function Hero() {
   return (
@@ -13,7 +13,7 @@ export default function Hero() {
             Hey there,
           </h1>
           <h1 className="mt-2 font-primary font-bold text-white text-5xl text-left">
-            I'm Rohin Bhat
+            I'm Pratham More.
           </h1>
           <div className="mt-4 font-primary font-medium text-blue-500 text-4xl text-left">
             <Typewriter
@@ -22,13 +22,13 @@ export default function Hero() {
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Mobile App Developer")
+                  .typeString("Web App Developer")
                   .pauseFor(500)
                   .deleteAll()
-                  .typeString("Web Developer")
+                  .typeString("Cloud and DevOps")
                   .pauseFor(500)
                   .deleteAll()
-                  .typeString("Graphic Designer")
+                  .typeString("Distributed Systems")
                   .pauseFor(500)
                   .deleteAll()
                   .start();
@@ -36,9 +36,9 @@ export default function Hero() {
             />
           </div>
           <h1 className="mt-4 font-secondary font-normal text-gray-400 text-xl text-left">
-            I am a Computer Engineering Undergraduate at Pune Institute of
-            Computer Technology with a keen interest in the field of Mobile App
-            Development, Web Development and Graphic Design.
+            I am a Electronics and Telecommunication Engineering Undergraduate
+            at Pune Institute of Computer Technology with a keen interest in the
+            field of Web App Development, Cloud and DevOps and Systems.
           </h1>
           <div className="flex flex-col lg:flex-row lg:justify-around">
             <Link to="/resume">
@@ -59,7 +59,7 @@ export default function Hero() {
           <img
             src={photo}
             className="overflow-hidden rounded-full shadow-2xl mt-8 lg:mt-0"
-            alt="Rohin Bhat"
+            alt="Pratham More"
           />
         </div>
       </Fade>

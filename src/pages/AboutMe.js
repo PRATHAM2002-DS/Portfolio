@@ -19,9 +19,10 @@ export default function AboutMe() {
       <Fade up cascade>
         <div>
           <p className="mx-auto w-full lg:w-3/4 mt-4 font-secondary font-normal text-gray-400 text-xl text-center">
-            I am a Computer Engineering undergraduate at Pune Institute of
-            Computer Technology, currently working in the fields of Mobile App
-            Development and Web Development.
+            I am a Electronics and Telecommunication Engineering undergraduate
+            at Pune Institute of Computer Technology, currently working in the
+            fields of Web App Development, Cloud and DevOps, System Design and
+            Distributed Systems.
           </p>
           <p className="mx-auto w-full lg:w-3/4 mt-2 font-secondary font-normal text-gray-400 text-xl text-center">
             A creative Graphic Designer and Developer. Skilled at writing

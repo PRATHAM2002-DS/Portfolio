@@ -10,6 +10,7 @@ export const ProjectCard = (props) => {
     description,
     image,
     code,
+    video,
     website,
     deployment,
     techStack,
@@ -86,6 +87,7 @@ export const ProjectCard = (props) => {
               </svg>
             </a>
           ) : null}
+
           {sysArch ? (
             <>
               <button onClick={() => toggleModal()}>

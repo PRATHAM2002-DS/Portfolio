@@ -12,12 +12,12 @@
         "url": "https://img.icons8.com/color/192/000000/python.png"
     },
     {
-        "name": "Dart",
-        "url": "https://img.icons8.com/color/192/000000/dart.png"
+        "name": "GoLang",
+        "url": "https://img.icons8.com/color/192/000000/golang.png"
     },
     {
-        "name": "Kotlin",
-        "url": "https://img.icons8.com/color/192/000000/kotlin.png"
+        "name": "Typescript",
+        "url": "https://img.icons8.com/color/192/000000/typescript.png"
     },
     {
         "name": "HTML",
@@ -36,6 +36,10 @@
         "url": "https://img.icons8.com/fluency/192/000000/mysql-logo.png"
     },
     {
+        "name": "PostgreSQL",
+        "url": "https://img.icons8.com/color/192/000000/postgresql.png"
+    },
+    {
         "name": "MongoDB",
         "url": "https://img.icons8.com/color/192/000000/mongodb.png"
     },
@@ -48,16 +52,16 @@
         "url": "https://img.icons8.com/color/480/000000/redis.png"
     },
     {
-        "name": "Flutter",
-        "url": "https://img.icons8.com/color/192/000000/flutter.png"
+        "name": "AWS",
+        "url": "https://img.icons8.com/color/192/000000/amazon-web-services.png"
     },
     {
-        "name": "React Native",
-        "url": "https://img.icons8.com/color/192/000000/react-native.png"
+        "name": "Azure",
+        "url": "https://img.icons8.com/color/192/000000/azure.png"
     },
     {
-        "name": "Android",
-        "url": "https://img.icons8.com/color/192/000000/android-studio--v3.png"
+        "name": "Prisma Orm",
+        "url": "https://img.icons8.com/color/192/000000/prisma-orm.png"
     },
     {
         "name": "Node JS",

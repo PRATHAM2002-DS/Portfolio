@@ -11,7 +11,7 @@ export default function Projects() {
         <h1 className="heading-tagline">TAKE A LOOK</h1>
         <div>
           <a
-            href="https://www.github.com/RohinBhat/"
+            href="https://www.github.com/PRATHAM2002-DS/"
             target="_blank"
             rel="noreferrer"
           >

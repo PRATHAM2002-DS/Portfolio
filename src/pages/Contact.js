@@ -26,7 +26,7 @@ export default function Contact() {
 
   const sendMessage = async () => {
     await axios
-      .post("https://rohin-portfolio-api.herokuapp.com/messages", userData)
+      .post("", userData)
       .then((res) => {
         toast.success("Message sent successfully");
       })
@@ -102,17 +102,17 @@ export default function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const isValid = validate();
-    if (isValid) {
-      sendMessage({
-        url: "https://rohin-portfolio-api.herokuapp.com/messages",
-        method: "POST",
-        data: userData,
-      });
-    }
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   const isValid = validate();
+  //   if (isValid) {
+  //     sendMessage({
+  //       url: "",
+  //       method: "POST",
+  //       data: userData,
+  //     });
+  //   }
+  // };
 
   return (
     <div className="overflow-hidden bg-gray-800 rounded-lg shadow-md items-center w-auto xl:w-5/6 mx-auto py-6 my-8">
@@ -127,7 +127,7 @@ export default function Contact() {
           </h1>
           <div className="mt-8 space-y-4 lg:flex lg:space-x-8 lg:space-y-0">
             <div className="mx-auto flex-grow transition duration-500 ease-in-out transform hover:scale-105">
-              <a href="mailto:bhatrohin003@gmail.com" rel="noreferrer">
+              <a href="mailto:pratham02more20@gmail.com" rel="noreferrer">
                 <svg
                   className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-blue-500 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -139,13 +139,13 @@ export default function Contact() {
                   Mail Me:
                 </p>
                 <p className="text-center text-gray-400 font-secondary font-medium text-lg">
-                  bhatrohin003@gmail.com
+                  pratham02more20@gmail.com
                 </p>
               </a>
             </div>
 
             <div className="mx-auto flex-grow transition duration-500 ease-in-out transform hover:scale-105">
-              <a href="tel:+91 9146458797" rel="noreferrer">
+              <a href="tel:+91 7020050908" rel="noreferrer">
                 <svg
                   className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-blue-500 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -157,17 +157,13 @@ export default function Contact() {
                   Phone Me:
                 </p>
                 <p className="text-center text-gray-400 font-secondary font-medium text-lg">
-                  +91 9146458797
+                  +91 7020050908
                 </p>
               </a>
             </div>
 
             <div className="mx-auto flex-grow transition duration-500 ease-in-out transform hover:scale-105">
-              <a
-                href="https://goo.gl/maps/Yg3JFteSWH2MK8q38"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="/" target="_blank" rel="noreferrer">
                 <svg
                   className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-blue-500 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -179,13 +175,13 @@ export default function Contact() {
                   Meet Me:
                 </p>
                 <p className="text-center text-gray-400 font-secondary font-medium text-lg">
-                  Aurangabad, Maharashtra
+                  Pune, Maharashtra
                 </p>
               </a>
             </div>
           </div>
           <div className="mt-8">
-            <form onSubmit={handleSubmit} autoComplete="off">
+            {/* <form onSubmit={handleSubmit} autoComplete="off">
               <div className="lg:flex lg:space-x-8">
                 <div className="w-full lg:w-1/2 flex flex-col">
                   <label className="text-gray-400 font-secondary font-medium mb-2 text-lg">
@@ -279,7 +275,7 @@ export default function Contact() {
               >
                 Send
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </Fade>

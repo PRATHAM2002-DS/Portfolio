@@ -11,7 +11,7 @@ export default function Messages() {
   const getMessages = async () => {
     let config = {
       method: "GET",
-      url: "https://rohin-portfolio-api.herokuapp.com/messages/",
+      url: "/",
     };
 
     await axios(config)
@@ -29,7 +29,7 @@ export default function Messages() {
   const deleteMessage = async (id) => {
     let config = {
       method: "DELETE",
-      url: `https://rohin-portfolio-api.herokuapp.com/messages/${id}`,
+      url: `/`,
     };
 
     await axios(config)

@@ -22,10 +22,10 @@ export default function NavBar() {
       title: "About Me",
       link: "/about",
     },
-    {
-      title: "What I Do",
-      link: "/work",
-    },
+    // {
+    //   title: "What I Do",
+    //   link: "/work",
+    // },
     {
       title: "Resume",
       link: "/resume",
@@ -37,7 +37,7 @@ export default function NavBar() {
       <NavLink to="/">
         <img
           src={logo}
-          className="max-h-12 sm:max-h-16 md:max-h-20 xl:max-h-24 transition duration-500 ease-in-out transform hover:scale-105"
+          className="max-h-8 sm:max-h-14 md:max-h-18 xl:max-h-24 transition duration-500 ease-in-out transform hover:scale-105"
           alt="Logo"
         />
       </NavLink>

@@ -1,20 +1,20 @@
 [
     {
-        "date": "2019 - PRESENT",
+        "date": "2020 - PRESENT",
         "title": "Pune Institute of Computer Technology, Pune",
-        "subtitle": "B.E. - Computer Engineering",
-        "grade": "Current CGPA: 9.5/10"
+        "subtitle": "B.E. - Electronics and Telecommunication Engineering",
+        "grade": "Current CGPA: 9.1/10"
     },
     {
-        "date": "FEBRUARY 2019",
-        "title": "Vidhyadham Higher Secondary School, Aurangabad",
+        "date": "FEBRUARY 2020",
+        "title": "Pragnya Jr college, Pune",
         "subtitle": "12th Standard",
-        "grade": "Percentage: 79.69%"
+        "grade": "Percentage: 83.08%"
     },
     {
-        "date": "MAY 2017",
-        "title": "Podar International School, Aurangabad",
-        "subtitle": "10th Standard",
-        "grade": "Percentage: 93.8%"
+        "date": "MAY 2018",
+        "title": "Hume Mchenry Memorial High School, Pune",
+        "subtitle": "10th Standard, ICSE",
+        "grade": "Percentage: 94.2%"
     }
 ]

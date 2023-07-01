@@ -11,8 +11,8 @@ export default function Homepage() {
       <Hero />
       <Skills />
       <Projects />
-      <Recommendations />
-      <CollabCTA />
+      {/* <Recommendations /> */}
+      {/* <CollabCTA /> */}
     </div>
   );
 }

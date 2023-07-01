@@ -1,47 +1,57 @@
 [
     {
-        "date": "JUNE 2022 - AUGUST 2022",
-        "title": "Credit Suisse",
-        "subtitle": "Technology Intern",
-        "website": "https://www.credit-suisse.com/us/en.html",
+        "date": "February 2023 - June 2023",
+        "title": "Health Tech Accelerators",
+        "subtitle": "Software Developer Intern",
+        "website": "/",
         "details": [
-            "Created an Admin Dashboard for Rockhopper, a trade query and trade entry system for Credit Suisse's Equity Derivatives trading business, reducing around 2 hours of the system admin's time.",
-            "Conducted a Demonstration Session for the frontend team of the Equity and Derivatives Department on React Query, which was later used for caching data on the SphereUnderlyings portal.",
-            "Improved the User Interface for SphereUnderlyings, a web-based global client intelligence platform, hence enhancing the User Experience in UAT by approximately 15%."
+            "Implemented a Role Based Access Model using Open FGA.",
+            "Added Pre-requests, Tests and automated testing using Newman cli of Postman and Github Actions.",
+            "Working with team to easily integrate various authentication methods and SSO’s as per clients requests to Platform Api."
         ],
         "techStack": [
-            "ReactJS",
-            "React Query",
-            "Material UI"
+            "NodeJs",
+            "React",
+            "Typescript",
+            "Prisma",
+            "Postgres",
+            "Open FGA"
+
         ]
     },
     {
-        "date": "DECEMBER 2021 - MARCH 2022",
-        "title": "Pingolearn",
-        "subtitle": "Mobile App Development Intern",
-        "website": "https://pingolearn.com/",
+        "date": "September 2022 - November 2022",
+        "title": "Serri Tech Solutions",
+        "subtitle": "Backend Developer Intern",
+        "website": "https://serri.club/",
         "details": [
-            "Developed and maintained Pingolearn, a language learning app in Flutter.",
-            "Designed assessments for hiring candidates for full-time roles."
+            "Contributed to the MVP product of serri.",
+            "Implemented a whatsapp bot with several features that will help users to build connections in community.",
+            "Contributed in creating a complete new Flow diagram and Architecture which reduced latency in code."
         ],
         "techStack": [
-            "Flutter",
-            "Firebase",
-            "Figma"
-        ]
-    },
-    {
-        "date": "AUGUST 2021 - NOVEMBER 2021",
-        "title": "Manastik",
-        "subtitle": "Software Engineer Intern",
-        "website": "https://manastik.com/",
-        "details": [
-            "Digitalized the Hindi Mental State Examination (HMSE) by developing the Dementia Active Diagnosis and Tracking (DADT) app reducing paperwork by 100%."
-        ],
-        "techStack": [
-            "Flutter",
-            "NodeJS",
+            "NodeJs",
+            "Typescript",
+            "Dialogflow",
             "DynamoDB",
+            "Postgres"
+        ]
+    },
+    {
+        "date": "July 2022 - February 2023",
+        "title": "Elliot Systems",
+        "subtitle": "Full Stack Developer Intern",
+        "website": "https://www.elliotsystems.com/",
+        "details": [
+            "Improved the User Interface provided by Elliot systems to the clients.",
+            "Worked on the backend using Nodejs, of the interface and performed pre-processing and Exploratory Data Analysis of the data recieved from company sensors.",
+            "Worked on the frontend using Reactjs, of the interface and created a dashboard for the clients to view the data recieved from the sensors.",
+            "Worked on AWS for deployment."
+        ],
+        "techStack": [
+            "React",
+            "NodeJS",
+            "Python",
             "AWS"
         ]
     }
